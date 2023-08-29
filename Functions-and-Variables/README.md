@@ -21,3 +21,7 @@ Errors in your code are called <strong>bugs</strong>. Throughout this course, we
 
 
 [Python Documentation](https://docs.python.org)
+
+One of the best things to do when learning a programming language is to get familiar with its documentation. The link provided below is the python documentation for the print function. <br/>
+
+[Print Documentation](https://docs.python.org/3/library/functions.html?highlight=print#print)
