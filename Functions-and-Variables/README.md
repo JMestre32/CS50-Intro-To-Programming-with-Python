@@ -38,4 +38,11 @@ Anything inside the parenthesis: potential arguments/parameters
 
 <em>SIDENOTE: the difference between parameters and arguments. <br/>
 When talking about what you CAN pass into a function you are talking about PARAMETERS. <br/>
-When you actually DO pass things into a function, those things are called ARGUMENTS. <br/>
+When you actually DO pass things into a function, those things are called ARGUMENTS. <br/> </em>
+
+
+More specifically: *objects implies we can take any number of arguments in the print function
+
+sep=' ': The default value of separator is a blank space. This is exemplified when using the ',' in hello.py
+
+end='\n\: '\n' means newline, this means this function will create a newline when it ends
