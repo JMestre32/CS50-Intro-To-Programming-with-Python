@@ -20,3 +20,8 @@ print("hello,", name)
 
 print("hello, ", end="")
 print(name)
+
+
+#This shows the sep value in action. 
+print("hello, ", name, sep="???", end="hi!")
+
