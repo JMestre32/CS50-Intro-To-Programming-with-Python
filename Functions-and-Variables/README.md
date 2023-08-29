@@ -20,4 +20,4 @@ Errors in your code are called <strong>bugs</strong>. Throughout this course, we
 <strong>Comments</strong> allow users to inform readers what their code does or perhaps write pseudocode to help in figuring out how to get code to work. Compilers ignore comments. 
 
 
-<a href="https://docs.python.org/3/" target="_blank">Python Documentation</a>
+[Python Documentation](https://docs.python.org)
