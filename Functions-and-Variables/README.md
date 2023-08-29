@@ -18,3 +18,6 @@ Errors in your code are called <strong>bugs</strong>. Throughout this course, we
 <strong>Variables</strong> allow users to assign values to things. This is seen in hello.py through the "name" variable. 
 
 <strong>Comments</strong> allow users to inform readers what their code does or perhaps write pseudocode to help in figuring out how to get code to work. Compilers ignore comments. 
+
+
+[Python Documentation] (docs.python.org)
