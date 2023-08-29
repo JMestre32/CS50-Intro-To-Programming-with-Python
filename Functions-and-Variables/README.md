@@ -25,3 +25,17 @@ Errors in your code are called <strong>bugs</strong>. Throughout this course, we
 One of the best things to do when learning a programming language is to get familiar with its documentation. The link provided below is the python documentation for the print function. <br/>
 
 [Print Documentation](https://docs.python.org/3/library/functions.html?highlight=print#print)
+
+Try not to feel overwhelmed when you don't understand what you're looking at
+
+<h3> print(*objects, sep=' ', end='\n', file=None, flush=False) </h3>
+
+Let's break this down.
+
+The name of the function: print
+
+Anything inside the parenthesis: potential arguments/parameters
+
+<em>SIDENOTE: the difference between parameters and arguments. <br/>
+When talking about what you CAN pass into a function you are talking about PARAMETERS. <br/>
+When you actually DO pass things into a function, those things are called ARGUMENTS. <br/>
