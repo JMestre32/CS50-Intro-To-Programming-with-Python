@@ -52,3 +52,10 @@ end='\n\: '\n' means newline, this means this function will create a newline whe
 <h3> Strings (Built-in functionality) </h3>
 
 [String Documentation](https://docs.python.org/3/library/string.html)
+
+The string documentation helps with printing and formatting user input correctly. 
+This is exemplified in the code below:
+
+name = name.strip()
+
+What strip does is remove whitespace from the str input 
