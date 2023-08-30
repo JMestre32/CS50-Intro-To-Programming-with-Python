@@ -50,4 +50,5 @@ end='\n\: '\n' means newline, this means this function will create a newline whe
 
 
 <h3> Strings (Built-in functionality) </h3>
+
 [String Documentation](https://docs.python.org/3/library/string.html)
