@@ -48,5 +48,7 @@
 
 name = input("What's your name? ").strip().title()
 
-print(f"hello, {name}")
+#Split user's name into first and last name
+first, last = name.split(" ")
 
+print(f"hello, {first}")
