@@ -7,6 +7,8 @@
     <li> Variables </li>
     <li> Comments </li>
     <li> Strings </li>
+    <li> Integers </li>
+    <li> Floats </li>
     <li> Interactive Mode </li>
 </ul>
 <h3>Functions</h3> are like an action or verb that let you do something in the program. Most programming languages come with built-in functions that allow programmers to "do things". <br/>
@@ -70,6 +72,19 @@ What strip does is remove whitespace from the str input
 An integer is any whole number (ie. -1, 0, 3, -2). When it comes to int's, there are no decimals. 
 
 Integers support the following operators: +, -, *, /, %
+
+<h3> Floats </h3>
+Floating point values have decimals.
+
+When we want to round a float, we use the round function
+
+According to the python documentation the round syntax is as follows:
+
+<h3> round(number[, ndigits]) </h3>
+
+round takes a number, and optionally (indicated by the
+',' symbol) the number of digits we want the round function to round to. If it isn't specifed, round just 
+rounds to the nearest integer.
 
 
 <h3> Interactive Mode </h3>
