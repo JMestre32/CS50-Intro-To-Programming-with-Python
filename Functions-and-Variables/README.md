@@ -1,12 +1,13 @@
 # Functions and Variables
 
-<h2> Topics:  </h2>
+<h2>Topics:</h2>
 <ul>
     <li>Functions </li>
     <li> Bugs </li>
     <li> Variables </li>
     <li> Comments </li>
-    <li>Strings </li>
+    <li> Strings </li>
+    <li> Interactive Mode
 </ul>
 <h3>Functions</h3> are like an action or verb that let you do something in the program. Most programming languages come with built-in functions that allow programmers to "do things". <br/>
 
@@ -59,3 +60,14 @@ This is exemplified in the code below:
 name = name.strip()
 
 What strip does is remove whitespace from the str input 
+
+<h3> Integers </h3>
+An integer is any whole number (ie. -1, 0, 3, -2). When it comes to int's, there are no decimals. 
+
+Integers support the following operators: +, -, *, /, %
+
+
+<h3> Interactive Mode </h3>
+
+You can run python in the terminal by typing 'python' and >>> will appear.
+There you can run code instead of making a new .py file
