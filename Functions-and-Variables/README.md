@@ -7,13 +7,18 @@
     <li> Variables </li>
     <li> Comments </li>
     <li> Strings </li>
-    <li> Interactive Mode
+    <li> Interactive Mode </li>
 </ul>
 <h3>Functions</h3> are like an action or verb that let you do something in the program. Most programming languages come with built-in functions that allow programmers to "do things". <br/>
 
 We see in the hello.py file that print is a function that allows us to print words to the terminal. 
 
+You can <strong> nest </strong> functions like so:
 
+x = int(input("What's x? "))
+
+
+<h3> Bugs </h3>
 Errors in your code are called <strong>bugs</strong>. Throughout this course, we will come across several bugs. Do not worry! By the end of this course, we will be equipped with the necessary tools to debug properly. 
 
 
