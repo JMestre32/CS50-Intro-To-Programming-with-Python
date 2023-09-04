@@ -101,6 +101,17 @@ def function-name (parameters):
 
 If you use a function, it MUST exist prior to you using it.
 
+In a lot of cases, programs NEED  a main function. A main function is 
+the starting point of most programs. 
+
+Again, you define main like any function
+
+def main():
+
+Then, you use whatever you'd like within main. However, you must call main like so:
+main()
+
+Somewhere within your program, if you wish for your program to execute as expected.
 <h3> Interactive Mode </h3>
 
 You can run python in the terminal by typing 'python' and >>> will appear.
