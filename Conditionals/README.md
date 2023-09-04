@@ -27,3 +27,12 @@ Only if statements:
 
 elif statements:
 <img width="341" alt="elif-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e617a4b1-0a58-42ee-b543-860c9ed85a1e">
+
+<!-- Quick note:
+I was able to put screenshots in the github repository by 
+1. first adding them to a folder
+2. Going to issues in github repo
+3. Clicking 'New issue'
+4. Dragging my image into the write textbox
+5. Copying the code that github generates
+6. Pasting it here>
