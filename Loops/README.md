@@ -51,7 +51,7 @@ A list is denoted by square brackets [] and its contents are separated by commas
 
 To access list elements we use the list name and [n] where n is a number. This is exemplified in the hogwarts.py program. 
 
-There is a function <stronger> len </stronger> that allows you to find the length of a list. This allows you to iterate through a list using numbers, if that is how you prefer going through a list. 
+There is a function <strong> len </strong> that allows you to find the length of a list. This allows you to iterate through a list using numbers, if that is how you prefer going through a list. 
 
 Another way to go through a list and print its elements is just by going through the list and assigning each value to a variable and printing that variable until there are no more values in the list. 
 
@@ -64,3 +64,8 @@ dict's allow you to associate something with something else
 To programmers this is known as a key-value pair. 
 
 Dictionaries use curly brackets {}
+
+Dictionaries are a bit harder to digest, but at the end of the day remember one thing. Dictionaries are just a collection of values that allow you to associate keys with values. This is exemplified more in the
+hogwarts-modified.py program. A visual aid is also given below: <br>
+
+<img width="477" alt="dicts" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/db774cd5-33fe-44f9-aafb-21ca61536d74">
