@@ -112,6 +112,9 @@ Then, you use whatever you'd like within main. However, you must call main like 
 main()
 
 Somewhere within your program, if you wish for your program to execute as expected.
+
+Functions also have a thing called <strong> return values </strong>
+these are values that functions hand back to us for future use. 
 <h3> Interactive Mode </h3>
 
 You can run python in the terminal by typing 'python' and >>> will appear.
