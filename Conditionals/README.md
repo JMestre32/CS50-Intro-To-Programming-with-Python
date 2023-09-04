@@ -1,6 +1,6 @@
-&gt; Greater than
-&lt;= Greater than or equal to 
-< Less than
-<= Less than or equal to
-== Equality, comparing the values on the left and right
-!= Not equal to
+&gt; Greater than <br>
+&lt;= Greater than or equal to <br>
+< Less than <br>
+<= Less than or equal to <br>
+== Equality, comparing the values on the left and right <br>
+!= Not equal to <br>
