@@ -45,3 +45,13 @@ while True:
 
 
 <h3> Lists </h3>
+
+A list is denoted by square brackets [] and its contents are separated by commas. 
+
+To access list elements we use the list name and [n] where n is a number. This is exemplified in the hogwarts.py program. 
+
+There is a function <strong> len </strong> that allows you to find the length of a list. This allows you to iterate through a list using numbers, if that is how you prefer going through a list. 
+
+Another way to go through a list and print its elements is just by going through the list and assigning each value to a variable and printing that variable until there are no more values in the list. 
+
+Both of these methods are shown in the hogwarts.py program. 
