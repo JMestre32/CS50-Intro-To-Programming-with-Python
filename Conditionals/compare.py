@@ -17,14 +17,31 @@ y = int(input("What's y? "))
 #New syntax! else, this is what the code resorts to if all statements are 
 #exhausted.
 
-if x < y:
-    print("x is less than y")
-elif x > y:
-    print("x is greater than y")
-else: 
-    print("x is equal to y")
+    # if x < y:
+    #     print("x is less than y")
+    # elif x > y:
+    #     print("x is greater than y")
+    # else: 
+    #     print("x is equal to y")
 
 
 #The modification we just made might seem minimal, but when we work
 #on a larger scale, optimizing code is vital. This is exemplified in the 
 #conditional flow charts in the README.
+
+
+#Now checking if x is equal to y or not (not optimized)
+
+    # if x < y or x > y:
+    #     print("x is not equal to y")
+    # else: 
+    #     print("x is equal to y")
+
+#Ask yourself, can you tighten this code up? Can you optimize this?
+#Can you make it shorter? Yes. You can. 
+
+#Checking if x is equal to y (optimized) [Note: you can do an == version as well]
+if x != y:
+    print("x is equal to y")
+else:
+    print("x is equal to y")

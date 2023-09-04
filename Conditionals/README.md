@@ -5,6 +5,7 @@
     <li> Conditional Operators</li>
     <li> if/elif Statements </li>
     <li> Else statement </li>
+    <li> Or statement </li>
 </ul>
 
 <h3> Conditional Operators </h3>
@@ -42,3 +43,12 @@ I was able to put screenshots in the github repository by
 An else statement is the final statement, it is what the program resorts to if all if and elif statements are exhausted. Adding else statements make our compare.py program the most efficient. That is exemplified here: <br>
 
 <img width="379" alt="else-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e219334d-07ee-4a44-a271-2067cde27b91">
+
+
+<h3> Or statements </h3>
+Or operators (||) can help you choose between two options in an if-statement like so:
+
+if x &gt; y or x &lt; y:
+    print("x is not equal to y)
+
+This effectively shortens our code, but it is not optimized. Refer to compare.py to see the most efficient code. 
