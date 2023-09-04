@@ -5,7 +5,7 @@
     <li> Conditional Operators</li>
 </ul>
 
-<h3> Conditional operators </h3>
+<h3> Conditional Operators </h3>
 <ul>
 <li> &gt; Greater than <br> </li>
 <li> &lt;= Greater than or equal to <br> </li>
