@@ -8,6 +8,7 @@
     <li> Or operator </li>
     <li> And operator <li>
     <li> Modulo operator </li>
+    <li> Match </li>
 </ul>
 
 <h3> Conditional Operators </h3>
@@ -60,3 +61,11 @@ This effectively shortens our code, but it is not optimized. Refer to compare.py
 The modulo operator '%' returns the remainder after dividing two numbers:
 
 4 % 3 = 1, 1 % 1 = 0, etc. 
+
+<h3> Match </h3>
+
+Match gives programmers the ability to match a variable to a specific case and execute accordingly. It's sort of like an if statement? In the event that a variable does not match anything, one could use an underscore like so: 
+
+match x:
+    case _:
+    print("Not accounted for")
