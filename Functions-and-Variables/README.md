@@ -9,6 +9,7 @@
     <li> Strings </li>
     <li> Integers </li>
     <li> Floats </li>
+    <li> Functions </li>
     <li> Interactive Mode </li>
 </ul>
 <h3>Functions</h3> are like an action or verb that let you do something in the program. Most programming languages come with built-in functions that allow programmers to "do things". <br/>
@@ -83,8 +84,11 @@ According to the python documentation the round syntax is as follows:
 <h3> round(number[, ndigits]) </h3>
 
 round takes a number, and optionally (indicated by the
-',' symbol) the number of digits we want the round function to round to. If it isn't specifed, round just 
-rounds to the nearest integer.
+',' symbol) the number of digits we want the round function to round to. If it isn't specifed, round just rounds to the nearest integer.
+
+Floats are limited to a specific amount of decimal points
+
+<h3> Functions </h3>
 
 
 <h3> Interactive Mode </h3>
