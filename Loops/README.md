@@ -3,8 +3,9 @@
 <h2> Topic </h2>
 <ul>
     <li> While loops </li>
-    <li> Lists </li>
     <li> For loops </li>
+    <li> Input validation </li>
+    <li> Lists </li>
 </ul>
 
 <h3> While loops </h3>
@@ -19,7 +20,6 @@ while ...:
     do stuff
     increment/decrement
 
-<h3> Lists </h3>
 
 <h3> For loops </h3>
 For loops allow us to iterate over a list of items. 
@@ -31,3 +31,17 @@ for i in range(3):
     print("meow")
 
 There is a "pythonic" solution that uses an underscore '_'. This is exemplified in the cat.py program. It's a minor improvement. 
+
+<h3> Input validation </h3>
+When you want the user to input something a specific way, you can use
+this method: 
+
+Enter an infinite loop and break only when your condition is met
+
+while True:
+    n = int(input("What's x?"))
+    if n > 0:
+        break
+
+
+<h3> Lists </h3>
