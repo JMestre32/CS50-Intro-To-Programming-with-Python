@@ -5,7 +5,7 @@
     <li> Conditional Operators</li>
     <li> if/elif Statements </li>
     <li> Else statement </li>
-    <li> Or statement </li>
+    <li> Or operator </li>
 </ul>
 
 <h3> Conditional Operators </h3>
@@ -45,7 +45,7 @@ An else statement is the final statement, it is what the program resorts to if a
 <img width="379" alt="else-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e219334d-07ee-4a44-a271-2067cde27b91">
 
 
-<h3> Or statements </h3>
+<h3> Or operator </h3>
 Or operators (||) can help you choose between two options in an if-statement like so:
 
 if x &gt; y or x &lt; y:
