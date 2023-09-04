@@ -14,14 +14,16 @@ y = int(input("What's y? "))
 
 #New syntax! elif, this asks a question that takes into account if the
 #previous question was true or false. 
-
+#New syntax! else, this is what the code resorts to if all statements are 
+#exhausted.
 
 if x < y:
     print("x is less than y")
 elif x > y:
     print("x is greater than y")
-elif x == y:
+else: 
     print("x is equal to y")
+
 
 #The modification we just made might seem minimal, but when we work
 #on a larger scale, optimizing code is vital. This is exemplified in the 

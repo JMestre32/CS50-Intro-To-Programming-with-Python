@@ -4,6 +4,7 @@
 <ul>
     <li> Conditional Operators</li>
     <li> if/elif Statements </li>
+    <li> Else statement </li>
 </ul>
 
 <h3> Conditional Operators </h3>
@@ -35,4 +36,9 @@ I was able to put screenshots in the github repository by
 3. Clicking 'New issue'
 4. Dragging my image into the write textbox
 5. Copying the code that github generates
-6. Pasting it here>
+6. Pasting it here -->
+
+<h3> Else statements </h3>
+An else statement is the final statement, it is what the program resorts to if all if and elif statements are exhausted. Adding else statements make our compare.py program the most efficient. That is exemplified here: 
+
+<img width="379" alt="else-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e219334d-07ee-4a44-a271-2067cde27b91">
