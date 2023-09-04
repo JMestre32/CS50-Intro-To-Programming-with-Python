@@ -90,6 +90,16 @@ Floats are limited to a specific amount of decimal points
 
 <h3> Functions </h3>
 
+We must use the keyword 'def' (short for define) when creating your own functions. 
+
+The syntax is typically as follows: 
+
+def function-name (parameters):
+    function
+    body
+
+
+If you use a function, it MUST exist prior to you using it.
 
 <h3> Interactive Mode </h3>
 
