@@ -6,9 +6,15 @@ def main():
         print("Odd")
 
 def is_even(n):
-    if n % 2 ==0:
-        return True #Boolean true! It has to be uppercase
-    else:
-        return False
+    # if n % 2 ==0:
+    #     return True #Boolean true! It has to be uppercase
+    # else:
+    #     return False
+
+    #The above code can be condensed into one line:
+        # return True if n % 2 == 0 else False
+
+    #We can do even better:
+    return n % 2 == 0
 
 main()
