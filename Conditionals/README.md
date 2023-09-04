@@ -6,6 +6,7 @@
     <li> if/elif Statements </li>
     <li> Else statement </li>
     <li> Or operator </li>
+    <li> And operator <li>
 </ul>
 
 <h3> Conditional Operators </h3>
