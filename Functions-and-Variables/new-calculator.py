@@ -7,6 +7,9 @@ def main():
 def square(n):
     return n * n
 
+    #Another way to do this is return n ** 2
+    #or pow function return pow(n, 2)
+
 
     
     

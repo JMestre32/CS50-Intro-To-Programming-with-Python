@@ -9,7 +9,7 @@
     <li> Strings </li>
     <li> Integers </li>
     <li> Floats </li>
-    <li> Functions </li>
+    <li> Making Functions </li>
     <li> Interactive Mode </li>
 </ul>
 <h3>Functions</h3> are like an action or verb that let you do something in the program. Most programming languages come with built-in functions that allow programmers to "do things". <br/>
