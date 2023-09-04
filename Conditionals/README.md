@@ -23,7 +23,7 @@ Programmers have the power to determine how they want a program to execute given
 However, a big thing with these statements is optimization and conditional flowcharts. As exemplified in compare.py, using elif statements answers questions much earlier in a program and thus speeds up execution time. Take a look at the two conditional flowcharts: 
 
 Only if statements: 
-![Only if statements](./images/only-if-statements.png)
+<img width="161" alt="only-if-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/22fbe98d-2084-47b7-b585-489f3ddba34f">
 
 elif statements:
-![elif statements](./images/elif-statements.png)
+<img width="341" alt="elif-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e617a4b1-0a58-42ee-b543-860c9ed85a1e">
