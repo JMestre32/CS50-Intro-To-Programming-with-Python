@@ -7,6 +7,7 @@
     <li> Else statement </li>
     <li> Or operator </li>
     <li> And operator <li>
+    <li> Modulo operator </li>
 </ul>
 
 <h3> Conditional Operators </h3>
@@ -53,3 +54,9 @@ if x &gt; y or x &lt; y:
     print("x is not equal to y)
 
 This effectively shortens our code, but it is not optimized. Refer to compare.py to see the most efficient code. 
+
+<h3> Modulo operator </h3>
+
+The modulo operator '%' returns the remainder after dividing two numbers:
+
+4 % 3 = 1, 1 % 1 = 0, etc. 
