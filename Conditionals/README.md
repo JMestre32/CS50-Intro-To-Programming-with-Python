@@ -6,7 +6,7 @@
     <li> if/elif Statements </li>
     <li> Else statement </li>
     <li> Or operator </li>
-    <li> And operator <li>
+    <li> And operator </li>
     <li> Modulo operator </li>
     <li> Match </li>
 </ul>
