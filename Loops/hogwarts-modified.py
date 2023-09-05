@@ -5,7 +5,7 @@ students = [
     {"name": "Hermione", "house":"Gryffindor", "patronus": "Otter"},
     {"name": "Harry", "house":"Gryffindor", "patronus": "Stag"},
     {"name": "Ron", "house":"Gryffindor", "patronus":"Jack Russell terrier"},
-    {"name": "Ron", "house": "Slytherin", "patronus": None}
+    {"name": "Draco", "house": "Slytherin", "patronus": None}
 
     #None is a special keyword in python that indicates that that element within this
     #single dictionary element that is itself part of a list of dictionary elements
