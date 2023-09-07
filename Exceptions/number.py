@@ -40,10 +40,26 @@
 #If line 44 doesn't work, it'll throw an exception and print "x is not an integer"
 
 #Otherwise, it'll execute line 48
-try: 
-    x = int(input("What's x? "))
-except ValueError:
-    print("x is not an integer")
-else:
-    print(f"x is {x}")
+    # try: 
+    #     x = int(input("What's x? "))
+    # except ValueError:
+    #     print("x is not an integer")
+    # else:
+    #     print(f"x is {x}")
 
+#There is an even better way of writing this. We don't want the program to 
+#exit if the user gives the wrong input. Instead, we want to use loops to keep
+#the program running. 
+
+while True: 
+    try: 
+        x = int(input("What's x? "))
+    except ValueError:
+        print("x is not an integer")
+    else:
+        break
+print(f"x is {x}")
+
+#What this code does is validate that the user's input is actually
+#an integer. Otherwise, we stay in the loop until the user gives us what we want.
+#Once we get an integer from the user, we break out of the loop and print x.  
