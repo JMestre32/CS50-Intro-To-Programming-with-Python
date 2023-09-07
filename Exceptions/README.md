@@ -14,14 +14,14 @@ Exceptions are when there is something wrong with your code.
 If something "exceptional" happens in a program, it means that something
 unexpected, like an error, is encountered during the program.
 
-<h3><ins> SyntaxError </ins> <h3>
+<h3><ins> SyntaxError </ins> </h3>
 
 A SyntaxError is an error in your code that is entirely on you to fix.
 
 However, there are different types of errors (ie. runtime errors) that we as <strong> programmers </strong> must account for. We must code 
 <em> defensively </em>.
 
-<h3><ins> ValueError (try/except) </ins> <h3>
+<h3><ins> ValueError (try/except) </ins> </h3>
 A valueError occurs when the user gives input that is unexpected. 
 This is exemplified best in the number.py program. try/except is quite literal
 we try to do something, and we throw an exception in the event that we get a 
