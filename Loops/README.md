@@ -13,7 +13,8 @@
 
 While loops allow us to check a condition first and if the condition is met, our program executes accordingly. The conditional flowchart below of the first iteration of our program cat.py shows how a while loop works: <br>
 
-<img width="194" alt="while-loops" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/95d05d4e-889b-4892-84bc-9afa738f19b4"> <br>
+<img width="194" alt="while-loops" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/63fa0ba4-3cb6-4caa-b063-6a4653b4246b">
+
 
 The synax of a while loop is as follows:
 
@@ -68,4 +69,4 @@ Dictionaries use curly brackets {}
 Dictionaries are a bit harder to digest, but at the end of the day remember one thing. Dictionaries are just a collection of values that allow you to associate keys with values. This is exemplified more in the
 hogwarts-modified.py program. A visual aid is also given below: <br>
 
-<img width="477" alt="dicts" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/db774cd5-33fe-44f9-aafb-21ca61536d74">
+<img width="477" alt="dicts" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/51fd242e-1bc7-4e33-8c90-29ef1e751952">
