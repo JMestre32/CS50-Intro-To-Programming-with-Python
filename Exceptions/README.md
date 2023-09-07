@@ -29,3 +29,6 @@ valueError.
 
 <h3><ins> Catching everything (BAD PRACTICE)</ins></h3>
 In python, there is a way to catch all errors. However, this is considered lazy and bad practice. Instead, we should account for any errors that could happen and program accordingly. 
+
+<ins><em>SIDENOTE: </ins>  David Malan notes that if you read the Python documentation, you will notice that Python isn't great about letting you know proactively what kinds of errors can be raised in your programs. However, you get better at figuring out what errors can happen with practice.
+</em>
