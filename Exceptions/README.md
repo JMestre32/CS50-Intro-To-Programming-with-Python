@@ -1,11 +1,12 @@
 # Exceptions
 
-<h2> Topics </h2>
+<h2><ins> Topics </ins> </h2>
 <ul>
     <li> What are exceptions </li>
-    <li> SyntaxError </ins>
-    <li> ValueError (try/except) </ins>
-    <li> Catching everything (BAD PRACTICE) </ins>
+    <li> SyntaxError </li>
+    <li> ValueError (try/except) </li>
+    <li> Catching everything (BAD PRACTICE) </li>
+    <li> NameError </li>
 </ul>
 
 <h3><ins> What are exceptions? </ins> </h3> 
@@ -27,8 +28,13 @@ This is exemplified best in the number.py program. try/except is quite literal
 we try to do something, and we throw an exception in the event that we get a 
 valueError. 
 
+There is an additional feature of the try/except syntax, it supports <strong> else </strong>. It works similar to if/elif/else statements. This is exemplified, again, in number.py.
+
 <h3><ins> Catching everything (BAD PRACTICE)</ins></h3>
 In python, there is a way to catch all errors. However, this is considered lazy and bad practice. Instead, we should account for any errors that could happen and program accordingly. 
 
 <ins><em>SIDENOTE: </ins>  David Malan notes that if you read the Python documentation, you will notice that Python isn't great about letting you know proactively what kinds of errors can be raised in your programs. However, you get better at figuring out what errors can happen with practice.
 </em>
+
+<h3><ins> NameError </ins> </h3>
+NameError usually refers to your code, it typically means that you're doing something with your variable that you shouldn't.
