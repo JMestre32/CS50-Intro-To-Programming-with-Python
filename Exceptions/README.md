@@ -7,6 +7,7 @@
     <li> ValueError (try/except) </li>
     <li> Catching everything (BAD PRACTICE) </li>
     <li> NameError </li>
+    <li> Pass </li>
 </ul>
 
 <h3><ins> What are exceptions? </ins> </h3> 
@@ -42,3 +43,6 @@ NameError usually refers to your code, it typically means that you're doing some
 For example, in number.py, look at the third version of the program that produces a name error. In the event that a user inputs something that is NOT a number, something like 'cat', passing 'cat' as an argument to the int conversion function makes the int function raise a ValueError. Notice that the last line is not indented, no matter what it will execute. So, when that line executes it raises a NameError, because it is not defined at the moment. 
 
 Introducing an else to the code makes the last line and the rest of the code mutually exclusive. The else is ONLY used if we try the second line of code AND succeed. 
+
+<h3> <ins> pass </ins></h3>
+pass is a mechanism for handling errors. If all we want to do is catch the error, we can type 'pass' in our except statement to catch the error and proceed with our program. This is seen in number-modified.py
