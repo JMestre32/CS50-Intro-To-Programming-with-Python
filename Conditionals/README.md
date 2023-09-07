@@ -28,10 +28,11 @@ Programmers have the power to determine how they want a program to execute given
 However, a big thing with these statements is optimization and conditional flowcharts. As exemplified in compare.py, using elif statements answers questions much earlier in a program and thus speeds up execution time. Take a look at the two conditional flowcharts: 
 
 Only if statements: <br>
-<img width="161" alt="only-if-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/22fbe98d-2084-47b7-b585-489f3ddba34f">
+<img width="161" alt="only-if-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/c3c71ef3-a2f3-4f06-a717-a52fac243c10">
+
 
 elif statements: <br>
-<img width="341" alt="elif-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e617a4b1-0a58-42ee-b543-860c9ed85a1e">
+<img width="341" alt="elif-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/c80587ca-4c8d-449e-b22c-39031d80bd3c">
 
 <!-- Quick note:
 I was able to put screenshots in the github repository by 
@@ -45,7 +46,7 @@ I was able to put screenshots in the github repository by
 <h3> Else statements </h3>
 An else statement is the final statement, it is what the program resorts to if all if and elif statements are exhausted. Adding else statements make our compare.py program the most efficient. That is exemplified here: <br>
 
-<img width="379" alt="else-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/e219334d-07ee-4a44-a271-2067cde27b91">
+<img width="379" alt="else-statements" src="https://github.com/JMestre32/CS50-Intro-To-Programming-with-Python/assets/114640505/0d69b1c4-44eb-461c-a6b5-3970bb32a425">
 
 
 <h3> Or operator </h3>
