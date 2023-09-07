@@ -8,6 +8,7 @@
     <li> Catching everything (BAD PRACTICE) </li>
     <li> NameError </li>
     <li> Pass </li>
+    <li> Raise (coming soon) </li>
 </ul>
 
 <h3><ins> What are exceptions? </ins> </h3> 
@@ -46,3 +47,6 @@ Introducing an else to the code makes the last line and the rest of the code mut
 
 <h3> <ins> pass </ins></h3>
 pass is a mechanism for handling errors. If all we want to do is catch the error, we can type 'pass' in our except statement to catch the error and proceed with our program. This is seen in number-modified.py
+
+<h3> <ins> raise </ins> </h3>
+We will touch on this soon...
