@@ -15,11 +15,17 @@ When you install the python interpreter, you get a few modules with it.
 Different modules in Python:
 <ul>
     <li>random</li>
-    [Random Documention](https://docs.python.org/3/library/random.html)
-    <li>statistic</li>
-    [Statistic Documentation](https://docs.python.org/3/library/statistics.html) 
-    
 </ul>
+
+[Random Documention](https://docs.python.org/3/library/random.html)
+    
+<ul>
+    <li>statistic</li>
+</ul>
+
+[Statistic Documentation](https://docs.python.org/3/library/statistics.html) 
+
+
 
 <h3><ins>import</ins></h3>
 How do you go about loading a module into your program so you can use the funtions in that module? We need <em>import</em>
