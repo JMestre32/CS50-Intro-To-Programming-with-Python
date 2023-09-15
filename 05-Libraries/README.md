@@ -10,6 +10,7 @@ Libraries are generally files of code that you/other people have written that yo
     <li>sys</li>
     <li>Slices (of lists)</li>
     <li>Packages</li>
+    <li>APIs</li>
 
 <h3><ins>Modules</ins></h3>
 Python supports the idea of sharing code via <em>modules</em>.
@@ -132,3 +133,24 @@ In my case, I had to run the command:
 ``pip3 install cowsay``
 
 cowsay's capabiilities are exemplified in ``say.py``
+
+<h3><ins>APIs</ins></h3>
+Yet another package that is just as popular and as easy to install!
+APIs are not python specific. APIs are an <em> application programming interface </em>. It can refer to python files or functions. Often, APIs refer to third-party services that we can write code that talk to. Many APIs live on the internet these days. 
+This way, so long as you have a browser you can write code that pretends to be a browser connects to that third-party API on a server and downloads some data that you can then incorporate into your program. 
+
+How might you go about doing this?
+
+<em><ins>requests</ins><em>
+
+Python has a popular package that you can install via pip called the request library allows you to make web requests/internet requests using python code essentially as though you were a browser yourself.
+
+You can automate, therefore, the retrieval of URLs that start with http or https
+
+[Request Documentation](https://pypi.org/project/requests/)
+
+By running the command: 
+
+`pip install requests` we now have access to the requests library
+
+APIs and requests are exemplified in itunes.py
