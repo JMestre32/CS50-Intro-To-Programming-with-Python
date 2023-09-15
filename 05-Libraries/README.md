@@ -6,9 +6,10 @@ Libraries are generally files of code that you/other people have written that yo
     <li>Modules</li>
     <li>import</li>
     <li>from</li>
-    <li>command-line arguments</li>
+    <li>command-Line Arguments</li>
     <li>sys</li>
-    <li>slices (of lists)</li>
+    <li>Slices (of lists)</li>
+    <li>Packages</li>
 
 <h3><ins>Modules</ins></h3>
 Python supports the idea of sharing code via <em>modules</em>.
@@ -98,3 +99,10 @@ for arg in sys.argv[1:-1]
 </code>
 
 This code removes the last element passed into the program. 
+
+
+<h3><ins>Packages</ins></h3>
+
+A package is a third-party library that you can install on your own device that gives you access to even more functionality. 
+
+You can access these packages at [PyPi](pypi.org)
