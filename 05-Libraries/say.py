@@ -7,4 +7,4 @@ import sys
     #ASCII ART WOO
 
 if len(sys.argv) ==2:
-    cowsay.milk("hey, im a dragon. you are lil bro, " + sys.argv[1])
+    cowsay.milk("hey " + sys.argv[1])
