@@ -105,9 +105,9 @@ This code removes the last element passed into the program.
 
 A package is a third-party library that you can install on your own device that gives you access to even more functionality. 
 
-You can access these packages at [PyPi](pypi.org)
+You can access these packages at [PyPi](https://pypi.org)
 
-Fun lil package: [cowsay](pypi.org/project/cowsay)
+Fun lil package: [cowsay](phttps://pypi.org/project/cowsay/)
 What this package does is allow the user to make a cow say something. 
 
 <em>How do you actually get the package into your system? </em>
