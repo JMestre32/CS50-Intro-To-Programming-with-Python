@@ -11,6 +11,7 @@ Libraries are generally files of code that you/other people have written that yo
     <li>Slices (of lists)</li>
     <li>Packages</li>
     <li>APIs</li>
+    <li>Self-Made Libraries</li>
 
 <h3><ins>Modules</ins></h3>
 Python supports the idea of sharing code via <em>modules</em>.
@@ -153,4 +154,12 @@ By running the command:
 
 `pip install requests` we now have access to the requests library
 
-APIs and requests are exemplified in itunes.py
+APIs and requests are exemplified in ``itunes.py``
+
+<h3><ins>Self-Made Libraries</ins></h3>
+
+If you find yourself using the same code over and over again, you can make your own library by bundling up that code. 
+
+You can keep the module/package local or go through the steps of making it open source and sharing it to websites like pypi.org
+
+Self-made libraries are exemplified in `saying.py`
