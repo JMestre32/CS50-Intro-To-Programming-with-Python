@@ -8,6 +8,7 @@ Libraries are generally files of code that you/other people have written that yo
     <li>from</li>
     <li>command-line arguments</li>
     <li>sys</li>
+    <li>slices (of lists)</li>
 
 <h3><ins>Modules</ins></h3>
 Python supports the idea of sharing code via <em>modules</em>.
@@ -76,4 +77,24 @@ All of these arguments are provided to you via python in a variable called sys.a
 
 Similar to the C programming language, sys.argv[0] is the program name and anything after that are parameters the program expects the user to provide. 
 
-All of this is exemplified in ``name.py``
+All of this is exemplified in ``name.py`` and ``name-modified.py``
+
+<h3><ins>slices(of lists)</ins></h3>
+
+Slices are subsets of lists or data sets. 
+
+In python it is relatively easy to get a slice of a list. You can simply do this:
+
+<code>
+for arg in sys.argv[1:]
+</code>
+
+What this does is loop through a 'slice' of the list and loop through the rest of the list. Effectively, this omits the first element of argv, the program name, and loops through arguments we actually pass to the program. 
+
+You can also slice from the end of a list using negative values like so:
+
+<code>
+for arg in sys.argv[1:-1]
+</code>
+
+This code removes the last element passed into the program. 
