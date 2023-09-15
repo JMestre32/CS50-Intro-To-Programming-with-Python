@@ -5,6 +5,9 @@ Libraries are generally files of code that you/other people have written that yo
 <ul>
     <li>Modules</li>
     <li>import</li>
+    <li>from</li>
+    <li>command-line arguments</li>
+    <li>sys</li>
 
 <h3><ins>Modules</ins></h3>
 Python supports the idea of sharing code via <em>modules</em>.
@@ -15,15 +18,27 @@ When you install the python interpreter, you get a few modules with it.
 Different modules in Python:
 <ul>
     <li>random</li>
+    used in generate.py
 </ul>
 
 [Random Documention](https://docs.python.org/3/library/random.html)
-    
 <ul>
     <li>statistic</li>
+    used in average.py
 </ul>
 
 [Statistic Documentation](https://docs.python.org/3/library/statistics.html) 
+<ul>
+    <li>sys</li>
+    short for system
+    contains a whole lot of functionality that pertains to the system and commands typed by the user
+    used in name.py
+</ul>
+
+[Sys Documentation](https://docs.python.org/3/library/sys.html)
+
+
+
 
 
 
@@ -40,3 +55,25 @@ from is another keyword in python that you can use when importing functions from
 Instead of importing an entire module we can simply import one function from a module like so: 
 
 from ``module-name`` import ``module-function``
+
+
+<h3><ins>command-line arguments</ins></h3>
+
+Command-line arguments allow users to provide input not when prompted by the command-line but when you are executing the program at the command-line.
+
+Up until now we have ONLY called programs like so:
+python hello.py
+
+command-line arguments change this up a little (exemplified in name.py)
+
+<h3><ins>sys</ins></h3>
+
+As previously stated, sys (short for system) provides a bunch of functionality that has to do with the system and the users input. 
+
+There exists a variable that "magically" exists for you called 'argv'. It stands for argument vector, which is a fancy way of describing ``the list of all of the words that the human typed in at the prompt before they hit enter``. 
+
+All of these arguments are provided to you via python in a variable called sys.argv 
+
+Similar to the C programming language, sys.argv[0] is the program name and anything after that are parameters the program expects the user to provide. 
+
+All of this is exemplified in ``name.py``
