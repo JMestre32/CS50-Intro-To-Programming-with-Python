@@ -106,3 +106,23 @@ This code removes the last element passed into the program.
 A package is a third-party library that you can install on your own device that gives you access to even more functionality. 
 
 You can access these packages at [PyPi](pypi.org)
+
+Fun lil package: [cowsay](pypi.org/project/cowsay)
+What this package does is allow the user to make a cow say something. 
+
+<em>How do you actually get the package into your system? </em>
+ 
+These days a lot of languages, python among them, have these things called package managers. <ins>pip</ins> is a program that generally comes with python itself nowadays that allows you to install packages onto your own devices by running a command. Then BOOM you now have access to the package.
+
+By running the command in the terminal:
+
+``pip install cowsay``
+
+You will <em>hopefully</em> see the message:
+"Successfully installed cowsay
+
+In my case, I had to run the command:
+
+``pip3 install cowsay``
+
+cowsay's capabiilities are exemplified in ``say.py``
