@@ -9,3 +9,5 @@ def goodbye(name):
 #turning them into a library?
 
 #See say-modified.py
+
+#Be sure NOT to include main() call when making your own library
