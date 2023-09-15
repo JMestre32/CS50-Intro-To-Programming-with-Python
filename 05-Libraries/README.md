@@ -68,6 +68,12 @@ python hello.py
 
 command-line arguments change this up a little (exemplified in name.py)
 
+Why should we use command-line arguments? They aren't "user-friendly".
+
+As we delve into programming with python and programming in general. You will become more comfortable with using command-line arguments as opposed to being prompted during a program's runtime. It tends to make you faster and more productive. 
+
+Instead of manually typing input over and over again, you can just pass the program the same command over and over again (which is faster). 
+
 <h3><ins>sys</ins></h3>
 
 As previously stated, sys (short for system) provides a bunch of functionality that has to do with the system and the users input. 
