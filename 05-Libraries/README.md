@@ -162,4 +162,4 @@ If you find yourself using the same code over and over again, you can make your 
 
 You can keep the module/package local or go through the steps of making it open source and sharing it to websites like pypi.org
 
-Self-made libraries are exemplified in `saying.py`
+Self-made libraries are exemplified in `saying.py` and `say-modified.py`
