@@ -142,7 +142,7 @@ This way, so long as you have a browser you can write code that pretends to be a
 
 How might you go about doing this?
 
-<em><ins>requests</ins><em>
+<em><ins>requests</ins></em>
 
 Python has a popular package that you can install via pip called the request library allows you to make web requests/internet requests using python code essentially as though you were a browser yourself.
 
